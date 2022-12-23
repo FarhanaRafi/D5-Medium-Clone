@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
-body{
+
+body {
     margin: 0;
 }
-.container1{
+
+.container1 {
     height: 73vh;
     padding-top: 20px;
     background-color: #FFC017;
     border-bottom: 2px solid black;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-   
+    z-index: 1;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     max-width: 1600px;
@@ -24,23 +27,27 @@ header{
     padding: 20px;
     flex-direction: row;
     background-color: #FFC017;
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid black;
 }
-header img{
-  width: 170px;
-  margin-left: 70px;
+
+header img {
+    width: 170px;
+    margin-left: 70px;
 }
-header nav{
-font-size: 16px;
-margin-left: auto; 
-margin-right: 50px;
+
+header nav {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 50px;
 
 }
-nav span{
+
+nav span {
     cursor: pointer;
     padding-right: 30px;
 }
-nav button{
+
+nav button {
     padding: 10px;
     padding-left: 14px;
     padding-right: 14px;
@@ -49,7 +56,8 @@ nav button{
     color: white;
     cursor: pointer;
 }
-.hero{
+
+.hero {
     margin-left: 150px;
     margin-top: 40px;
     max-width: 1600px;
@@ -57,24 +65,28 @@ nav button{
     display: flex;
     align-items: center;
     flex-direction: row;
- 
+
 }
-.hero1{
+
+.hero1 {
     margin-left: 150px;
-  
+
     margin-left: 150px;
     margin-bottom: 40px;
 }
-.hero1 h1{
- font-size: 100px;
- margin-bottom: 20px;
+
+.hero1 h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
 
 }
-.hero1 p{
+
+.hero1 p {
     font-size: 29px;
 
 }
-.hero1 button{
+
+.hero1 button {
     width: 200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -83,134 +95,149 @@ nav button{
     background-color: black;
     color: white;
     font-size: 20px;
-    border-radius:25px ;
+    border-radius: 25px;
     cursor: pointer;
 }
- .hero .m-container{
-  justify-content: flex-end;
+
+.hero .m-container {
+    justify-content: flex-end;
     width: 590px;
     margin-right: 10px;
     margin-left: auto;
     padding-top: 20px;
-   
+
 }
 
-.main{
+.main {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-right: 120px;
-  column-gap: 85px;
-  row-gap: 30px;
+    column-gap: 85px;
+    row-gap: 30px;
     margin-bottom: 30px;
-    
+
 }
- .main-title{
+
+.main-title {
     margin-left: 150px;
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
     margin-top: 50px;
 }
-.trend{
+
+.trend {
     width: 25px;
     margin-right: 10px;
     vertical-align: middle;
-   
+
 }
-.main .num{
+
+.main .num {
     font-weight: 900;
     color: #ebebeb;
     font-size: 30px;
 }
-.main .name{
+
+.main .name {
     font-weight: 200;
     font-size: 15px;
     color: black;
     margin-left: 7px;
 }
 
-.main .logo{
+.main .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;
+    height: 30px;
+    border-radius: 50%;
 }
-.main .p-1{
+
+.main .p-1 {
     padding-left: 50px;
     font-weight: bold;
-   
+
 }
-.main .p-2{
-    
+
+.main .p-2 {
+
 
     padding-left: 50px;
     color: #c7c2c2;
 }
 
-.main .p-3{
-    
+.main .p-3 {
+
 
     padding-left: 50px;
     color: #c7c2c2;
 }
-.main .p-3 span{
-    
-margin-left: 170px;
+
+.main .p-3 span {
+
+    margin-left: 170px;
     color: #c7c2c2;
 }
-.main .p-3 .star{
+
+.main .p-3 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.main .p-2 .star{
+
+.main .p-2 .star {
     display: inline-block;
     vertical-align: middle;
 }
 
 
-.content{
+.content {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
     margin-top: 60px;
 }
-.content .logo{
+
+.content .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content .name{
+
+.content .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content .content-title{
+
+.content .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content .inner-content{
+
+.content .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content .date{
+
+.content .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content button{
+.content button {
     border: none;
     border-radius: 10px;
     width: 55px;
@@ -218,30 +245,33 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content .star{
+
+.content .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content .bookmark{
+
+.content .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 170px;
 }
 
-.content .content-img img{
+.content .content-img img {
     width: 210px;
     height: 160px;
     object-fit: cover;
     margin-left: 10px;
 }
 
-.content .side-bar{
+.content .side-bar {
     margin-top: -15px;
     margin-left: 130px;
     padding-bottom: 30px;
     border-bottom: 1px solid #c7c2c2;
 }
-.content .side-bar button{
+
+.content .side-bar button {
     width: 110px;
     padding: 10px;
     font-size: 9px;
@@ -250,46 +280,53 @@ margin-top: -7px;
     margin-bottom: 10px;
     border-radius: 5px;
     cursor: pointer;
+
 }
-.content2{
+
+.content2 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content2 .logo{
+
+.content2 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content2 .name{
+
+.content2 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content2 .content-title{
+
+.content2 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content2 .inner-content{
+
+.content2 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content2 .date{
+
+.content2 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content2 button{
+.content2 button {
     border: none;
     border-radius: 10px;
     width: 55px;
@@ -297,76 +334,86 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content2 .star{
+
+.content2 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content2 .bookmark{
+
+.content2 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 170px;
 }
 
-.content2 .content-img img{
+.content2 .content-img img {
     width: 220px;
     height: 160px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.content2 .side-bar{
+
+.content2 .side-bar {
     margin-top: 13px;
     margin-left: 130px;
     padding-bottom: 30px;
-  
+
 }
-.content2 .side-bar a{
+
+.content2 .side-bar a {
     padding-right: 15px;
     margin-bottom: 16px;
     font-size: 14px;
-   text-decoration: none;
-   color: #919191; 
+    text-decoration: none;
+    color: #919191;
 
-    
+
 }
-.content3{
+
+.content3 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content3 .logo{
+
+.content3 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content3 .name{
+
+.content3 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content3 .content-title{
+
+.content3 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content3 .inner-content{
+
+.content3 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content3 .date{
+
+.content3 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content3 button{
+.content3 button {
     border: none;
     border-radius: 10px;
     width: 150px;
@@ -374,61 +421,69 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content3 .star{
+
+.content3 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content3 .bookmark{
+
+.content3 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 70px;
 }
 
-.content3 .content-img img{
+.content3 .content-img img {
     width: 220px;
     height: 160px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.content4{
+
+.content4 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content4 .logo{
+
+.content4 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content4 .name{
+
+.content4 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content4 .content-title{
+
+.content4 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content4 .inner-content{
+
+.content4 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content4 .date{
+
+.content4 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content4 button{
+.content4 button {
     border: none;
     border-radius: 10px;
     width: 100px;
@@ -436,61 +491,69 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content4 .star{
+
+.content4 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content4 .bookmark{
+
+.content4 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 115px;
 }
 
-.content4 .content-img img{
+.content4 .content-img img {
     width: 220px;
     height: 160px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.content5{
+
+.content5 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content5 .logo{
+
+.content5 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content5 .name{
+
+.content5 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content5 .content-title{
+
+.content5 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content5 .inner-content{
+
+.content5 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content5 .date{
+
+.content5 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content5 button{
+.content5 button {
     border: none;
     border-radius: 10px;
     width: 100px;
@@ -498,61 +561,69 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content5 .star{
+
+.content5 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content5 .bookmark{
+
+.content5 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 115px;
 }
 
-.content5 .content-img img{
+.content5 .content-img img {
     width: 220px;
     height: 160px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.content6{
+
+.content6 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content6 .logo{
+
+.content6 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 22px;
- height: 22px;
- border-radius: 20%;   
+    height: 22px;
+    border-radius: 20%;
 }
-.content6 .name{
+
+.content6 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content6 .content-title{
+
+.content6 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content6 .inner-content{
+
+.content6 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content6 .date{
+
+.content6 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content6 button{
+.content6 button {
     border: none;
     border-radius: 10px;
     width: 100px;
@@ -560,61 +631,69 @@ margin-top: -7px;
     margin-left: 6px;
     cursor: pointer;
 }
-.content6 .star{
+
+.content6 .star {
     display: inline-block;
     vertical-align: middle;
 }
-.content6 .bookmark{
+
+.content6 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 89px;
 }
 
-.content6 .content-img img{
+.content6 .content-img img {
     width: 220px;
     height: 160px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.content7{
+
+.content7 {
     margin-left: 120px;
     display: flex;
     flex-direction: row;
-   margin-top: 10px;
+    margin-top: 10px;
 }
-.content7 .logo{
+
+.content7 .logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     width: 30px;
- height: 30px;
- border-radius: 50%;   
+    height: 30px;
+    border-radius: 50%;
 }
-.content7 .name{
+
+.content7 .name {
     font-weight: 200;
     font-size: 13px;
     color: black;
 }
-.content7 .content-title{
+
+.content7 .content-title {
     padding-left: 10px;
     font-size: 20px;
-margin-top: -7px;
+    margin-top: -7px;
     font-weight: bold;
 }
-.content7 .inner-content{
+
+.content7 .inner-content {
     margin-top: -10px;
     padding-left: 10px;
     padding-right: 30px;
     color: #919191;
 }
-.content7 .date{
+
+.content7 .date {
     padding-left: 10px;
     margin-top: -5px;
     font-size: 14px;
     color: #919191;
 }
 
-.content7 button{
+.content7 button {
     border: none;
     border-radius: 10px;
     width: 100px;
@@ -623,22 +702,24 @@ margin-top: -7px;
     cursor: pointer;
 }
 
-.content7 .bookmark{
+.content7 .bookmark {
     display: inline-block;
     vertical-align: middle;
     margin-left: 130px;
 }
 
-.content7 .content-img img{
+.content7 .content-img img {
     width: 220px;
     height: 180px;
-object-fit: cover;
+    object-fit: cover;
     margin-left: 19px;
 }
-.white{
+
+.white {
     background-color: white;
 }
-.btn-green{
+
+.btn-green {
     background-color: rgb(26, 137, 23);
     border-color: rgb(26, 137, 23);
     color: white;
