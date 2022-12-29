@@ -268,7 +268,11 @@ nav button {
     margin-top: -15px;
     margin-left: 130px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #c7c2c2;
+    border-bottom: 1px solid #c7c2c2;  
+}
+.content .side-bar{
+    position: sticky;
+    top: 11vh;
 }
 
 .content .side-bar button {
@@ -280,7 +284,6 @@ nav button {
     margin-bottom: 10px;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 .content2 {
