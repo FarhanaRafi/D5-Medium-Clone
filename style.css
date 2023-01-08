@@ -270,10 +270,12 @@ nav button {
     padding-bottom: 30px;
     border-bottom: 1px solid #c7c2c2;  
 }
-.content .side-bar{
+.content .side-bar {
+    position: -webkit-sticky;
     position: sticky;
-    top: 11vh;
+    top: 15vh;
 }
+
 
 .content .side-bar button {
     width: 110px;
@@ -360,7 +362,6 @@ nav button {
     margin-top: 13px;
     margin-left: 130px;
     padding-bottom: 30px;
-
 }
 
 .content2 .side-bar a {
@@ -369,8 +370,6 @@ nav button {
     font-size: 14px;
     text-decoration: none;
     color: #919191;
-
-
 }
 
 .content3 {
