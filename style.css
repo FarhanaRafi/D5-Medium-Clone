@@ -8,7 +8,7 @@ body {
     height: 73vh;
     padding-top: 20px;
     background-color: #FFC017;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 header {
@@ -27,18 +27,22 @@ header {
     padding: 20px;
     flex-direction: row;
     background-color: #FFC017;
-    border-bottom: 1px solid black;
+}
+hr {
+    margin-top: -2px;
+    border-color: black;
+    border-width: 0.3px;
 }
 
 header img {
     width: 170px;
-    margin-left: 70px;
+    margin-left: 8%;
 }
 
 header nav {
     font-size: 16px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 8%;
 
 }
 
