@@ -28,8 +28,8 @@ header {
     flex-direction: row;
     background-color: #FFC017;
 }
-hr {
-    margin-top: -2px;
+header hr {
+    margin-top: -1px;
     border-color: black;
     border-width: 0.3px;
 }
